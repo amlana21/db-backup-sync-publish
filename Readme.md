@@ -4,7 +4,7 @@ In this post I will be going through a very simple backup solution to backup Mon
 
 Overall this solution consist of a custom API which will expose endpoints to perform the database backup.The API call will be scheduled as a repititive job using AWS lambda and Cloudwatch.AWS provides a free tier option within which the lambda limits are more than enough to handle the periodic run.We can use Heroku to host the cucstom API.This combination will provide a totally cost free option for you to host the end to end solution.  
 
-A basic version version of the custom API can be found in my below Github repo. I am still enhancing the code to add more features to it but the overall process remains same. To follow through the process, some basic AWS knowledge and understanding will be needed.  
+A basic version of the custom API can be found in my below Github repo. I am still enhancing the code to add more features to it but the overall process remains same. To follow through the process, some basic AWS knowledge and understanding will be needed.  
 
 https://github.com/amlana21/db-backup-sync-publish
 
