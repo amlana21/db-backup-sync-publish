@@ -1,0 +1,9 @@
+Flask
+python-dotenv
+bson==0.5.9
+Flask-PyMongo
+dnspython
+SQLAlchemy
+psycopg2
+flask-bcrypt
+gunicorn

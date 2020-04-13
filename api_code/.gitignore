@@ -1,0 +1,5 @@
+shopenv
+.replit
+.env
+.idea/*
+__pycache__*
